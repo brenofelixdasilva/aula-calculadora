@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url(buttons.css);
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #5E6B7D;
+    font-family:'Roboto';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calc-container{
+    background: #283346;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 5px 6px #00000045;
+    width: 300px;
+    height: auto;
+}
+
+#calc-result{
+    text-align: right;
+    color: white;
+    font-size: 48px;
+    display: block;
+    overflow: auto;
+    background-color: #5e6b7db3;
+    border-radius: 13px;
+    padding: 0px 13px 0px 0px;
+    
+}
