@@ -11,7 +11,7 @@
     margin-top: 10px;
 }
 button{
-    background:#2e384c;
+    background: #3d5069b3;
     border: none;
     padding: 10px;
     width: 60px;
@@ -30,7 +30,7 @@ button:hover{
 }
 
 .button_operator{
-    color: #EF8F0B;
+    color: #FF3764;
     font-size: 35px;
     font-family: 'Roboto';
 } 
@@ -38,6 +38,10 @@ button:hover{
 .button_numbers{
     color: #EFF1F2;
     font-size: 30px;
+}
+
+.special_buttons{
+    color: #a937ff;
 }
 
 .button_fixSize{
